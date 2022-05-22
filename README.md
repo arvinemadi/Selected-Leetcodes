@@ -10,5 +10,8 @@ The challenge is to be careful with backtracking and the direction after returns
 Relatively complicated Problem and the solution based in Dynamic Programming.
 
 ## Leetcode 2251 - Hard
-Very intersting problem. The problem seems easy to understand. The solution is based on binary search. Need to find the flowers that are too late and also flowers.
-And then find the ones that are too early. There are some comments in the file also
+Very intersting problem that I solved in one of weekly contests. The problem seems easy to understand. 
+The solution is based on binary search. Need to find the flowers that are too late and also flowers. And then find the ones that are too early. There are some comments in the file also
+
+## Leetcode 815 - Bus Routes - Hard
+Usual Breadth First Search (BFS) type of problem. The tricky part was that initially you are not in any bus and need to push all possible bus optioins into the queue and mark those buses as taken. 
