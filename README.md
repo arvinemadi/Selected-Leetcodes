@@ -15,3 +15,6 @@ The solution is based on binary search. Need to find the flowers that are too la
 
 ## Leetcode 815 - Bus Routes - Hard
 Usual Breadth First Search (BFS) type of problem. The tricky part was that initially you are not in any bus and need to push all possible bus optioins into the queue and mark those buses as taken. 
+
+## Leetcode 17 - Letter Combinations of a Phone Number - Medium
+It is probably more an easy problem than a Hard problem. Added here because it was one of my most viewed posted solutions.
