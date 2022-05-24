@@ -24,3 +24,7 @@ Added this as it could be on the Hard side if not familiar with Knapsack problem
 
 ## Leetcode 1192 - Critical Connections in a Network - Hard
 Applying Tarjan algorithm with discovery and low times.
+
+## Leetcode 2204 - Distance to a cycle in Undirected Graph - Hard
+Very interesting question. Only one back-edge existed in the graph and if removed it is a tree.
+Approach was to: 1- Do a BFS to find the back-edge. While doing BFS store the time each node is visited 2- When the back-edge is found, find the common ancestor between the nodes of the back-edge; these will be the nodes in the loop 3- do a DFS and assign the distance of each node to +1 of its parent, unless they are in the loop
