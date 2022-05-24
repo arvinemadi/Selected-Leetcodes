@@ -21,3 +21,6 @@ It is probably more an easy problem than a Medium problem. Added here because it
 
 ## Leetcode 474 - Ones and Zeros - Medium/Hard
 Added this as it could be on the Hard side if not familiar with Knapsack problem. Solved it with easier DP approach. It can be optimized for space.
+
+## Leetcode 1192 - Critical Connections in a Network - Hard
+Applying Tarjan algorithm with discovery and low times.
