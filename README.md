@@ -17,4 +17,7 @@ The solution is based on binary search. Need to find the flowers that are too la
 Usual Breadth First Search (BFS) type of problem. The tricky part was that initially you are not in any bus and need to push all possible bus optioins into the queue and mark those buses as taken. 
 
 ## Leetcode 17 - Letter Combinations of a Phone Number - Medium
-It is probably more an easy problem than a Hard problem. Added here because it was one of my most viewed posted solutions.
+It is probably more an easy problem than a Medium problem. Added here because it was one of my most viewed posted solutions.
+
+## Leetcode 474 - Ones and Zeros - Medium/Hard
+Added this as it could be on the Hard side if not familiar with Knapsack problem. Solved it with easier DP approach. It can be optimized for space.
