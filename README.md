@@ -28,3 +28,8 @@ Applying Tarjan algorithm with discovery and low times.
 ## Leetcode 2204 - Distance to a cycle in Undirected Graph - Hard
 Very interesting question. Only one back-edge existed in the graph and if removed it is a tree.
 Approach was to: 1- Do a BFS to find the back-edge. While doing BFS store the time each node is visited 2- When the back-edge is found, find the common ancestor between the nodes of the back-edge; these will be the nodes in the loop 3- do a DFS and assign the distance of each node to +1 of its parent, unless they are in the loop
+
+## Leetcode 694 - Number of Distinct Islands - Medium
+If distinct islands were not requested, it was pretty easy to count the islands with simple DFS. 
+Asking for distinct islands makes this a little bit more challenging. The approach I used was to hash the path each island is traversed and store the paths in a dict.
+If a new island's path does not exists in the dict, it would be added as a new distint island.
