@@ -33,3 +33,8 @@ Approach was to: 1- Do a BFS to find the back-edge. While doing BFS store the ti
 If distinct islands were not requested, it was pretty easy to count the islands with simple DFS. 
 Asking for distinct islands makes this a little bit more challenging. The approach I used was to hash the path each island is traversed and store the paths in a dict.
 If a new island's path does not exists in the dict, it would be added as a new distint island.
+
+## Leetcode 300 - Longest Increasing Sequence - Medium
+Classic problem. Solved in two approaches:
+1- Dynamic Programming (DP) bottom up. O(n2)
+2- Greedy + Binary Search: Try to create the sub array in a greedy way. But sinc sub is by definition sorted can use Binary Search to find the biggest element at each step. O(nlogn)
