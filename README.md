@@ -38,3 +38,9 @@ If a new island's path does not exists in the dict, it would be added as a new d
 Classic problem. Solved in two approaches:
 1- Dynamic Programming (DP) bottom up. O(n2)
 2- Greedy + Binary Search: Try to create the sub array in a greedy way. But sinc sub is by definition sorted can use Binary Search to find the biggest element at each step. O(nlogn)
+
+## Leetcode 354 - Russian Doll Envelopes - Hard
+Based on previous problem, Longest Increasing Sequence. Need to sort first, ascending for width and descending for length. Descending for length is done to avoid the situation of same width envelopes fitting the next coming envelope if the width is the same. 
+
+## Leetcode 329 - Longest Increasing Path in a Matrix - Hard
+Although it seems similar but it is a much easier problem compared the previous two problems, 300 and 354. This can be solved by normal dynamic programming.
