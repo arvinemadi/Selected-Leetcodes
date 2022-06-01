@@ -44,3 +44,8 @@ Based on previous problem, Longest Increasing Sequence. Need to sort first, asce
 
 ## Leetcode 329 - Longest Increasing Path in a Matrix - Hard
 Although it seems similar but it is a much easier problem compared the previous two problems, 300 and 354. This can be solved by normal dynamic programming.
+
+## Leetcode 1279 - Number of Ships in a Rectangle - Hard
+Interesting question. The trick is to cut down each rectangle into a smaller 2x2 rectangles and do recursion. Order complexity: O(logn x logm)
+
+
