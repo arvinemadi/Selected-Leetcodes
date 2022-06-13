@@ -1,6 +1,7 @@
 # Selected Leetcodes
 Not all, but some leetcodes that I did and found them interesting would be added here with explanation.
 If you had questions please contact me.
+Leetcode profile with all posted solutions: https://leetcode.com/arvinemadi/
 
 ## Leetcode 489 - Hard
 Initially thought that it has to be an A* or other shortest path but first tried a DFS and it was the solution.
