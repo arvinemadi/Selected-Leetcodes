@@ -7,10 +7,10 @@ Leetcode profile with all posted solutions: https://leetcode.com/arvinemadi/
 Initially thought that it has to be an A* or other shortest path but first tried a DFS and it was the solution.
 The challenge is to be careful with backtracking and the direction after returns. Also, budgetting eough space for the 2D vectors twice the max size, because the initial location is unknown and max direction could come from either side
 
-## Leetcode 568 - Hard
+## Leetcode 568 - Maximum Vacation Days - Hard
 Relatively complicated Problem and the solution based in Dynamic Programming.
 
-## Leetcode 2251 - Hard
+## Leetcode 2251 - Number of Flowers in Full Bloom - Hard
 Very intersting problem that I solved in one of weekly contests. The problem seems easy to understand. 
 The solution is based on binary search. Need to find the flowers that are too late and also flowers. And then find the ones that are too early. There are some comments in the file also
 
