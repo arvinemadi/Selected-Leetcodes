@@ -56,3 +56,6 @@ Since we are looking for the smallest courses, it is simple, we create a max pri
 of courses, we add the course duration to the proiority queue. The we check if the sum of duration of the courses in the priority queue exceeded the current deadline,
 if it did not exceed means that one additional course could be taken, otherwise we pop out the largest duration course so that in the next step more courses can be taken.
 
+## Leetcode 1354 - Construct Target Array With Multiple Sums - Hard
+The key is that instead of trying to make the target from the initial array of 1's, we should go backward. At each step going back we need to find the number that was replaced. The only issue is that at the same location, the same sum can be repeated many time and if the ratio of the largest number to the rest is a lot this could mean many repetition. Thefore, at each step we find the repition number, k, and using that find the number that was replaced. Then we continue until we come the array of 1's. At each iteration we check if the number that should be replaced is valid or not and return false if we hit a smaller than 1 number.
+
