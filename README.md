@@ -49,4 +49,10 @@ Although it seems similar but it is a much easier problem compared the previous 
 ## Leetcode 1279 - Number of Ships in a Rectangle - Hard
 Interesting question. The trick is to cut down each rectangle into a smaller 2x2 rectangles and do recursion. Order complexity: O(logn x logm)
 
+## Leetcode 630 - Course Schedule III - Hard
+First we sort the courses based on their finish deadline. The trick is at we iterate through this sorted courses and find at each deadline day what is the maximum
+courses that can be take. This, the max number of courses, would be the number of smallest duration courses that their sum of duration is smaller than the deadline.
+Since we are looking for the smallest courses, it is simple, we create a max priority queue (because we want to pop the largest ones). At each step through the list 
+of courses, we add the course duration to the proiority queue. The we check if the sum of duration of the courses in the priority queue exceeded the current deadline,
+if it did not exceed means that one additional course could be taken, otherwise we pop out the largest duration course so that in the next step more courses can be taken.
 
