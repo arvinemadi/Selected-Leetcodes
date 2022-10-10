@@ -65,5 +65,5 @@ The naive approach to solve the problem is to use a vector and array to store th
 To do that we can do it recursively. On each call we reverse the first k nodes and the next of the last node is assigned to a new call. Some complexity is that if there were not enough nodes the question asks not to reverse the nodes. One way is to check the lenght before reversing, but will add too much over head in each iteration. Better solution is to first reverse each time, then check if there were enough nodes left, if there were not enough node, then reverse again to get the original list.
 The algorithm is not not intuitive in the begginging but the code is very small and simple.
 
-## Leetcode 315. Count of Smaller Numbers After Self
+## Leetcode 315. Count of Smaller Numbers After Self - Hard
 Segment tree is a very powerfull technique when solving range query type of questions.
