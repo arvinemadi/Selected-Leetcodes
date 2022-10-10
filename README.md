@@ -64,3 +64,6 @@ Linked list is a useful data strucutre when there are memory issues where data i
 The naive approach to solve the problem is to use a vector and array to store the data and then apply a simple algorithm on it. But that is not really possible always as there may not be enough memory available. On leetcode using an extra array will also pass all the test cases and the problem does not specifically ask for that. But the problem is only a hard one if you have to solve it with O(1) space complexity.
 To do that we can do it recursively. On each call we reverse the first k nodes and the next of the last node is assigned to a new call. Some complexity is that if there were not enough nodes the question asks not to reverse the nodes. One way is to check the lenght before reversing, but will add too much over head in each iteration. Better solution is to first reverse each time, then check if there were enough nodes left, if there were not enough node, then reverse again to get the original list.
 The algorithm is not not intuitive in the begginging but the code is very small and simple.
+
+## Leetcode 315. Count of Smaller Numbers After Self
+Segment tree is a very powerfull technique when solving range query type of questions.
