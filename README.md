@@ -67,3 +67,6 @@ The algorithm is not not intuitive in the begginging but the code is very small 
 
 ## Leetcode 315. Count of Smaller Numbers After Self - Hard
 Segment tree is a very powerfull technique when solving range query type of questions.
+
+## Leetcode 327. Count of Range Sum - Hard
+First thought it would be another segment tree as it was suggested after the previous question, but it turned out to be a divide and conquer.
