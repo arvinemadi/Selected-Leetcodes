@@ -70,3 +70,6 @@ Segment tree is a very powerfull technique when solving range query type of ques
 
 ## Leetcode 327. Count of Range Sum - Hard
 First thought it would be another segment tree as it was suggested after the previous question, but it turned out to be a divide and conquer.
+
+## Leetcode 743. Network Delay Time - Medium
+Classic Dijkstra algorithm. Adding it to share my way of implementation in C++ with custom class and comparator for the priority queue. Some implementations don't seem to be easily readable if you simply put vectors into priority queue.
