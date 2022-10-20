@@ -73,3 +73,6 @@ First thought it would be another segment tree as it was suggested after the pre
 
 ## Leetcode 743. Network Delay Time - Medium
 Classic Dijkstra algorithm. Adding it to share my way of implementation in C++ with custom class and comparator for the priority queue. Some implementations don't seem to be easily readable if you simply put vectors into priority queue.
+
+## Leetcode 716. Max Stack - Hard
+Implementation of an interesting data structure that is a stack and keeps track of the maximum number in the stack. The max number value can be returned and also can be removed from the stack. The top() operation is in O(1) and all other operations peekMax(), pop(), popMax(), push(), popMax() are O(logn). The implementation is with a sorted map and a priority_queue with first priority on the value and a second priority of the insertion time into the queue. Beats 95% on memory and speed on leetcode.
